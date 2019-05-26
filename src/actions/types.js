@@ -1,0 +1,10 @@
+export const AUTH_USER = 'auth_user';
+export const AUTH_USER_SUCCESS = 'auth_user_success';
+export const AUTH_USER_ERROR = 'auth_user_error';
+export const UNAUTH_USER = 'unauth_user';
+export const REGISTER_USER = 'register_user';
+export const REGISTER_USER_SUCCESS = 'register_user_success';
+export const REGISTER_USER_ERROR = 'register_user_error';
+export const GET_POKEMONS = 'get_pokemons';
+export const GET_POKEMONS_SUCCESS = 'get_pokemons_success';
+export const GET_POKEMONS_ERROR = 'get_temperatures_error';
