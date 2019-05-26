@@ -1,0 +1,11 @@
+{
+  "extends": "rallycoding",
+  "globals": {
+    "localStorage": false,
+    "sessionStorage": false,
+    "window": false
+  },
+  "rules": {
+    "no-underscore-dangle": 0
+  }
+}
