@@ -1,9 +1,9 @@
 [
     {
       "id": 1,
-      "name": "Leanne Graham",
-      "username": "Bret",
-      "email": "test@test.test",
+      "name": "Mus Mus",
+      "username": "Mus",
+      "email": "mus@test.com",
       "password": "123456",
       "address": {
         "street": "Kulas Light",
@@ -27,7 +27,7 @@
       "id": 2,
       "name": "Ervin Howell",
       "username": "Antonette",
-      "email": "Shanna@melissa.tv",
+      "email": "dlamas@test.com",
       "password": "123456",
       "address": {
         "street": "Victor Plains",
@@ -49,9 +49,9 @@
     },
     {
       "id": 3,
-      "name": "Clementine Bauch",
-      "username": "Samantha",
-      "email": "Nathan@yesenia.net",
+      "name": "Test Test",
+      "username": "Test",
+      "email": "test@test.test",
       "password": "123456",
       "address": {
         "street": "Douglas Extension",

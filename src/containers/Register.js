@@ -6,7 +6,6 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import FormControl from '@material-ui/core/FormControl';
 import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import withStyles from '@material-ui/core/styles/withStyles';
@@ -40,8 +39,7 @@ const styles = theme => ({
       padding: `${theme.spacing(2)}px ${theme.spacing(3)}px ${theme.spacing(3)}px`,
     },
     avatar: {
-      margin: theme.spacing(),
-      backgroundColor: theme.palette.secondary.main,
+      margin: theme.spacing()
     },
     form: {
       width: '100%', // Fix IE 11 issue.
@@ -195,9 +193,11 @@ class Register extends Component {
                     />
                     <CssBaseline />
                     <Paper className={classes.paper}>
-                        <Avatar className={classes.avatar}>
-                            <LockOutlinedIcon />
-                        </Avatar>
+                        <Avatar 
+                            className={classes.avatar}
+                            alt={'Pokemon Image'}
+                            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/25.png"
+                        />
                         <Typography component="h1" variant="h5">
                         Sign up
                         </Typography>

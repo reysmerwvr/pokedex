@@ -14,6 +14,7 @@ import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 
 import history from '../helpers/history';
 import { menuItems } from '../components/MenuItems';
+import Pokemon from '../components/Pokemon';
 import Main from '../hoc/Main';
 import { signOut } from '../actions';
 import Pokemons from './Pokemons';
@@ -124,6 +125,9 @@ class Dashboard extends Component {
           case '/pokemons':
             ContentComponent = Pokemons;
             break;
+          case '/pokemons/:id':
+              ContentComponent = Pokemon;
+              break;
           default:
             break;
         }
@@ -140,7 +144,7 @@ class Dashboard extends Component {
   handleDrawerClose = () => {
     this.setState({ open: false });
   };
-  
+
   render() {
     const { classes } = this.props;
     const { ContentComponent } = this.state;
