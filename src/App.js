@@ -30,7 +30,7 @@ class App extends Component {
     const token = localStorage.getItem('token');
     if(token) {
       this.setState({ isAuthenticated: true });
-      history.push('/dashboard')
+      history.push('/dashboard');
     } else {
       this.setState({ isAuthenticated: false });
     }
@@ -54,6 +54,12 @@ class App extends Component {
             <PrivateRoute
               exact 
               path="/pokemons" 
+              component={Dashboard}
+              isAuthenticated={isAuthenticated} 
+            />
+            <PrivateRoute
+              exact 
+              path="/pokemons/:id" 
               component={Dashboard}
               isAuthenticated={isAuthenticated} 
             />
